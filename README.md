@@ -1,3 +1,10 @@
+temp credits tracker
+https://github.com/v21/tracery
+https://github.com/galaxykate/tracery
+https://github.com/CodingTrain
+
+tracery npm package readme
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
