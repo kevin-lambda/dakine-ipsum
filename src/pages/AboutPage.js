@@ -1,7 +1,13 @@
 import React from "react"
+import { Navbar, AboutMain } from "../components"
 
 function AboutPage() {
-  return <div>AboutPage</div>
+  return (
+    <div>
+      <Navbar />
+      <AboutMain />
+    </div>
+  )
 }
 
 export default AboutPage

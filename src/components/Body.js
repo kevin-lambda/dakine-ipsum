@@ -19,37 +19,48 @@ function Body() {
 
   return (
     <div className="comp-body">
-      <form onSubmit={handleSubmit}>
-        <label>
-          check box here: <input type="checkbox" name="startWith" />
-        </label>
-        <br />
+      <h2 className="body-heading">Like da kine ipsum words fo wan design?</h2>
 
-        <label>
-          Sentences:
+      <form className="form-container" onSubmit={handleSubmit}>
+        <div className="form-items">
+          <label>
+            <input className="form-checkbox" type="checkbox" name="startWith" />{" "}
+            Start With "Dakine Ipsum Dolor Sit Amet"
+          </label>
+        </div>
+        <div className="form-items">
           <input
+            className="input-number"
             type="number"
             name="numSentences"
             max="99"
-            placeholder="# sentences"
+            placeholder="#"
+            size="10"
+            defaultValue={8}
           />
-        </label>
-        <br />
-        <label>
-          Paragraphs:
+          <label> Sentences Per</label>
+        </div>
+        <div className="form-items">
           <input
+            className="input-number"
             type="number"
             name="numParagraphs"
             max="99"
-            placeholder="# paragraphs"
+            placeholder="#"
+            defaultValue={3}
           />
-        </label>
-        <br />
-
-        <input type="submit" />
+          <label> Paragraphs</label>
+        </div>
+        <div className="form-submit">
+          <input
+            className="form-submit-button"
+            type="submit"
+            value="Chaj em!"
+          />
+        </div>
       </form>
 
-      <div>
+      <section className="ipsum-container">
         {count ? (
           <GenerateIpsum
             numGraph={numGraph}
@@ -59,7 +70,7 @@ function Body() {
         ) : (
           <></>
         )}
-      </div>
+      </section>
     </div>
   )
 }

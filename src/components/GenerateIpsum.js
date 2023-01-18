@@ -8,8 +8,6 @@ function capFirstLetter(s) {
 }
 
 function makeLorem(numSentence, numGraph, startWith) {
-  console.log(startWith)
-
   const grammar = tracery.createGrammar(pidgin)
   let arrayGraph = []
 

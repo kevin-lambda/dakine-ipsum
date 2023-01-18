@@ -1,4 +1,5 @@
 export { default as Navbar } from "./Navbar.js"
-export { default as Body } from "./Body"
-export { default as Footer } from "./Footer"
-export { default as GenerateIpsum } from "./GenerateIpsum"
+export { default as Body } from "./Body.js"
+export { default as AboutMain } from "./AboutMain.js"
+export { default as Footer } from "./Footer.js"
+export { default as GenerateIpsum } from "./GenerateIpsum.js"

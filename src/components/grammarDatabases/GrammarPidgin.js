@@ -81,7 +81,7 @@ const pidgin = {
     "small kine",
   ],
   In: ["wit", "on", "fo", "wen", "down", "off"], //preposition
-  Ar: ["da", "wan", "ho bah wan", "da kine"], // article
+  Ar: ["da", "wan", "da kine"], // article
   Ph: ["can handle?", "howzit?", "k den", "like beef?", "moke action"], //phrase
   Ex: [
     "aisus!",
@@ -111,7 +111,14 @@ const pidgin = {
   SP: ["#Ph#.", "#Ex#"],
 
   // origin
-  S: ["#NP# #VP#.", "#NP# #VP#.", "#NP# #VP#.", "#NP# #VP#.", "#SP#"],
+  S: [
+    "#NP# #VP#.",
+    "#NP# #VP#.",
+    "#NP# #VP#.",
+    "#NP# #VP#.",
+    "#NP# #VP#.",
+    "#SP#",
+  ],
 }
 
 export default pidgin
