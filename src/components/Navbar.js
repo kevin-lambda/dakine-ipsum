@@ -5,7 +5,7 @@ function Navbar() {
   return (
     <nav className="comp-navbar">
       <div className="nav-logo-link">
-        <a href="/">
+        <a href="/dakine-ipsum">
           <img
             className="nav-logo-img"
             src={IMAGES.bannerGreen}
