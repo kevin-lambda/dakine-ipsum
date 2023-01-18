@@ -1,29 +1,37 @@
 import React from "react"
-import { basicEnglish } from "./grammarDatabases/index.js"
+import { pidgin } from "./grammarDatabases/index.js"
 import tracery from "tracery-grammar"
 // const tracery = require("tracery-grammar")
 
-console.log("==================")
-console.log(basicEnglish)
+function capFirstLetter(s) {
+  return s[0].toUpperCase() + s.slice(1)
+}
 
-// const grammar = tracery.createGrammar({
-//   animal: ["panda", "fox", "capybara", "iguana"],
-//   emotion: ["sad", "happy", "angry", "jealous"],
-//   origin: ["I am #emotion# #animal#."],
-// })
+function makeLorem(numSentence, numGraph, startWith) {
+  console.log(startWith)
 
-const grammar = tracery.createGrammar(basicEnglish)
+  const grammar = tracery.createGrammar(pidgin)
+  let arrayGraph = []
 
-let a = grammar.flatten("#S#")
-console.log(a)
+  for (let j = 0; j < numGraph; j++) {
+    let oneGraph = ""
+    for (let i = 0; i < numSentence; i++) {
+      let sentence = grammar.flatten("#S#")
+      oneGraph += capFirstLetter(sentence) + " "
+    }
+    arrayGraph.push(oneGraph)
+  }
 
-function GenerateIpsum() {
-  return (
-    <div>
-      GenerateIpsum
-      <p>{a}</p>
-    </div>
-  )
+  if (startWith) {
+    arrayGraph[0] = "Dakine ipsum dolor sit amet. " + arrayGraph[0]
+  }
+
+  return arrayGraph.map((curGraph, index) => <p key={index}>{curGraph}</p>)
+}
+
+function GenerateIpsum(props) {
+  let lorem = makeLorem(props.numSentence, props.numGraph, props.startWith)
+  return <div>{lorem}</div>
 }
 
 export default GenerateIpsum
