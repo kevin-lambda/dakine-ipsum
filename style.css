@@ -1,0 +1,145 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: "Helvetica Neue", Helvetica, Arial, Frutiger, "Frutiger Linotype",
+    Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad,
+    "Nimbus Sans L", "Liberation Sans", Tahoma, Geneva, sans-serif;
+  font-size: calc(15px + 3 * (100vw / 1500));
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+  text-align: center;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+  text-align: center;
+}
+
+body {
+  margin: 0rem;
+  background-color: rgb(236, 236, 236);
+}
+
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+/* \\\\\\\\\\ NAVBAR \\\\\\\\\\\\ */
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+.comp-navbar {
+  background-color: #6c8c38;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-logo-link {
+  height: 8rem;
+}
+
+.nav-logo-img {
+  height: 100%;
+}
+
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+/* \\\\\\\\\\ BODY \\\\\\\\\\\\\\ */
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+.comp-body {
+  /* border: 1px solid black; */
+  max-width: 40em;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.comp-body2 {
+  /* border: 1px solid black; */
+  max-width: 33em;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.comp-body2 h1 {
+  font-size: larger;
+}
+
+.comp-body2 a {
+  color: #556e2b;
+  border-bottom: 1.9px dashed #556e2b;
+  text-decoration: none;
+  line-height: 0.95;
+  font-style: italic;
+}
+
+.comp-body2 a:hover {
+  font-style: normal;
+  border-bottom: 1.9px solid #556e2b;
+}
+
+.comp-footer {
+  /* border: 1px solid black; */
+  max-width: 40em;
+  margin: 0 auto;
+  padding: 1rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.about-link {
+  color: #556e2b;
+  font-weight: 600;
+  border-bottom: 1.9px dashed #556e2b;
+  text-decoration: none;
+  line-height: 0.95;
+  font-style: italic;
+}
+
+.about-link:hover {
+  border-bottom: 1.9px solid #556e2b;
+  font-style: normal;
+}
+
+.body-heading {
+  font-size: calc(20px + 4 * (100vw / 1500));
+}
+
+#back-button {
+  position: absolute;
+  border-radius: 10px;
+  margin-top: 1.5rem;
+  border: 1px solid black;
+  color: black;
+  background-color: #7ca03f;
+  font-style: normal;
+  padding: 0.75rem 0.95rem;
+}
+
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+/* \\\\\\\\\\ FORM \\\\\\\\\\\\\\ */
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+.form-container {
+  margin-bottom: 2rem;
+}
+
+.form-checkbox {
+  width: 1rem;
+  height: 1rem;
+  margin-right: 0.45rem;
+  margin-left: 0.45rem;
+}
+
+.form-items {
+  margin: 0.5rem 0;
+}
+
+.form-submit-button {
+  margin-left: 0.25rem;
+}
+
+.input-number {
+  width: 2rem;
+}
