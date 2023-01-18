@@ -41,14 +41,14 @@ function AboutMain() {
       </p>
       <h1>Contact</h1>
       <p>
-        You want to get in touch... for some reason? Here's the
+        You want to get in touch? Here's the
         <span>
           {" "}
           <a href="mailto:kevin.quoct.lam+dakineIpsum@gmail.com">email</a>
         </span>{" "}
       </p>
 
-      <a id="back-button" href="/">
+      <a id="back-button" href="/dakine-ipsum">
         Back
       </a>
     </div>
