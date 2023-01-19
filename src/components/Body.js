@@ -9,7 +9,7 @@ function Body() {
   const [count, setCount] = useState(0)
 
   const handleSubmit = (event) => {
-    setCount(count + 1) //hacky way to get submit to work everytime by changing something in the state
+    setCount(count + 1) // /hacky way to get submit to work everytime by changing something in the state
     setCheck(event.target.startWith.checked)
     setnumSentence(event.target.numSentences.value)
     setnumGraph(event.target.numParagraphs.value)
