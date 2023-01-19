@@ -19,9 +19,7 @@ function Body() {
 
   return (
     <div className="comp-body">
-      <h2 className="body-heading">
-        new branch Like da kine ipsum words fo wan design?
-      </h2>
+      <h2 className="body-heading">Like da kine ipsum words fo wan design?</h2>
 
       <form className="form-container" onSubmit={handleSubmit}>
         <div className="form-items">

@@ -37,7 +37,12 @@ function AboutMain() {
           {" "}
           <a href="https://v21.io/">v buckenham</a>
         </span>{" "}
-        for porting Tracery to nodejs.
+        for porting Tracery to nodejs,
+        <span>
+          {" "}
+          <a href="https://rafaelpedicini.com/">Rafael Pedicini</a>
+        </span>{" "}
+        for single page application functionality in github pages.
       </p>
       <h1>Contact</h1>
       <p>
