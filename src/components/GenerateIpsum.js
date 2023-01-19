@@ -1,7 +1,7 @@
 import React from "react"
 import { pidgin } from "./grammarDatabases/index.js"
 import tracery from "tracery-grammar"
-// const tracery = require("tracery-grammar")
+// /const tracery = require("tracery-grammar")
 
 function capFirstLetter(s) {
   return s[0].toUpperCase() + s.slice(1)
