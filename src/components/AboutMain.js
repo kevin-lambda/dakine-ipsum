@@ -23,7 +23,7 @@ function AboutMain() {
         grammar rules. The database of words for the CFG were manually collected
         by me.
       </p>
-      <h1>Acknowledgements</h1>
+      <h1>Acknowledgements & Key Technology</h1>
       <p>
         <span>
           <a href="https://www.lester-lee.com/">Lester Lee</a>
