@@ -42,7 +42,7 @@ function AboutMain() {
           {" "}
           <a href="https://rafaelpedicini.com/">Rafael Pedicini</a>
         </span>{" "}
-        for single page application functionality in github pages.
+        for single page app functionality in github pages.
       </p>
       <h1>Contact</h1>
       <p>
