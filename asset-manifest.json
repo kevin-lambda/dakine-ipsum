@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.js": "/dakine-ipsum/static/js/main.19105c4a.js",
+    "main.js": "/dakine-ipsum/static/js/main.f05d1267.js",
     "static/media/bannerGreen.png": "/dakine-ipsum/static/media/bannerGreen.7fbc68ee18af64876d88.png",
     "static/media/bannerWhite.png": "/dakine-ipsum/static/media/bannerWhite.b72c79155b2728bde3df.png",
     "static/media/titleGreen.png": "/dakine-ipsum/static/media/titleGreen.cd21dff065b9b3a503c1.png",
     "static/media/titleWhite.png": "/dakine-ipsum/static/media/titleWhite.6f5e8ea6c3e6754f3073.png",
     "index.html": "/dakine-ipsum/index.html",
-    "main.19105c4a.js.map": "/dakine-ipsum/static/js/main.19105c4a.js.map"
+    "main.f05d1267.js.map": "/dakine-ipsum/static/js/main.f05d1267.js.map"
   },
   "entrypoints": [
-    "static/js/main.19105c4a.js"
+    "static/js/main.f05d1267.js"
   ]
 }
