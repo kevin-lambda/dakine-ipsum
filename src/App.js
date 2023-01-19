@@ -8,7 +8,6 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />}></Route>
         <Route path="/about" element={<AboutPage />}></Route>
-        <Route path="/test" element={<p>this is the test page</p>}></Route>
       </Routes>
     </div>
   )
